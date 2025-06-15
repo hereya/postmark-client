@@ -38,3 +38,7 @@ output "postmarkServerKey" {
   value = aws_ssm_parameter.postmark_server_key.arn
 }
 
+output "POSTMARK_SERVER_KEY" {
+  value = aws_ssm_parameter.postmark_server_key.arn
+}
+
